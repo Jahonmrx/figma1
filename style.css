@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(180deg, #fff, rgba(122, 3, 27, 0.24));
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+}
+ul li:nth-child(5){
+    border: 1px solid rebeccapurple;
+    width: 212px;
+    height: 56px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7A0325;
+}
+ul li:nth-child(5) a{
+    font-weight: 900;
+    font-size: 29px;
+    color: white;
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 33px;
+    color: black;
+}
+.container{
+    width: 1323px;
+    margin: 0 auto;
+}
+header{
+    border-top: 16px solid #7A0325;
+}
+.left{
+    width: 50%;
+}
+.tg{
+    width: 241px;
+    height: 57px;
+    border-radius: 52px;
+    background-color: #DFC3CB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.tg p{
+    font-weight: 900;
+    font-size: 25px;
+    color: #7A0325;
+}
+.left h1{
+    font-weight: 900;
+    font-size: 55px;
+    color: #7A0325;
+}
+.leftp p{
+    font-weight: 500;
+    font-size: 36px;
+    color: #777777;
+    width: 580px;
+    
+}
+.leftp{
+    margin-bottom: 19px;
+}
+.get{
+    width: 580px;
+    height: 70px;
+    background-color: #7A0325;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get a{
+    font-weight: 900;
+    font-size: 29px;
+    color: white;
+    text-decoration: none;
+}
+.right{
+    width: 50%;
+    height: 350px;
+    margin-top: 35px;
+}
+.page1{
+    display: flex;
+}
+.rasm{
+    background-image: url(img/bac-image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 412px;
+    position: relative;
+    left: 25px;
+}
+
+.yozuv{
+    font-weight: 700;
+    font-size: 52px;
+    color: #7A0325;
+    margin-bottom: 50px;
+}
+.card{
+    width: 407px;
+    height: 432px;
+    background-color: white;
+    border: 1px solid hotpink;
+    border-radius: 27px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.dumaloq{
+    width: 83px;
+    height: 83px;
+    background-color: #7A0325;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dumaloq i{
+    font-size: 30px;
+    color: white;
+}
+.card h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #7A0325;
+    margin-bottom: 10px;
+}
+.card p{
+    font-weight: 500;
+    font-size: 26px;
+    color: #6B6B6B;
+}
+.cyozuv{
+    padding-inline: 27px;
+    padding-top: 47px;
+}
+.dumaloq{
+    margin-bottom: 25px;
+}
+.page2{
+    margin-top: 140px;
+    margin-bottom: 105px;
+}
+
+.box{
+    border-radius: 27px;
+    height: 567px;
+    display: flex;
+    gap: 50px;
+    background-color: white;
+}
+.boxes{
+    display: grid;
+    gap: 65px;
+}
+.chap{
+    background-color: #7A0325;
+    width: 374px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+}
+.ong{
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.ong h1{
+    font-weight: 900;
+    font-size: 58px;
+    color: #7A0325;
+    margin-bottom: 20px;
+}
+.yyozuv{
+    font-weight: 500;
+    font-size: 31px;
+    color: #9C9C9C;
+    width: 850px;
+    margin-bottom: 25px;
+}
+.turtburchak, .butt{
+    width: 807px;
+    height: 81px;
+    border-radius: 10px;
+}
+.turtburchak{
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.turtburchak p{
+    font-weight: 700;
+    font-size: 29px;
+    color:#6C6B6B;
+}
+.turtburchak_input input{
+    background-color: #EAEAEA;
+    width: 807px;
+    height: 81px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+.turtburchak_input{
+    color: #7A0325;
+    width: 807px;
+    background-color: #EAEAEA;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.butt{
+    background-color: #7A0325;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.butt p{
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+}
+.burchak4, .more{
+    width: 807px;
+    height: 81px;
+    border-radius: 10px;
+}
+.burchak4{
+    background-color: #EAEAEA;   
+    margin-bottom: 20px;
+    display: flex;
+}
+.up p{
+    font-weight: 700;
+    font-size: 25px;
+    color: #7A0325;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 710px;
+}
+.undov{
+    width: 94px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DFC3CB;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.more{
+    background-color: #7A0325;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more p{
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+}
+.quti{
+    width: 426px;
+    height: 96px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    font-size: 35px;
+    color: #808080;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 27px;
+}
+.quti p{
+    margin-left: 27px;
+}
+.qutilar{
+    display: flex;
+    justify-content: space-between;
+}
+.page4{
+    margin-top: 89px;
+    position: relative;
+    top: 45px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: white;
+}
+.icons{
+    display: flex;
+    gap: 29px;
+}
+.icons a{
+    font-size: 40px;
+}
+.icons a:nth-child(1){
+    color: #472AF6;
+}
+.icons a:nth-child(2){
+    color: #C100C5;
+}
+.icons a:nth-child(3){
+    color: #16CCF3;
+}
+footer .container>.logo, .icons{
+    padding-bottom: 64px;
+    padding-top: 120px;
+}
